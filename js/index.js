@@ -68,12 +68,12 @@ async function makeTableForProduct(productLists) {
                   <td class="text-center">
                     <div class="d-flex">
                       <div class="mx-1">
-                        <button class="btn btn-success btn-sm mb-1" onclick="editProduct('${
+                        <button class="btn btn-success mb-1" onclick="editProduct('${
                           product._id
                         }')">Edit</button>
                       </div>
                       <div>
-                        <button class="btn btn-danger btn-sm" onclick="deleteProduct('${
+                        <button class="btn btn-danger" onclick="deleteProduct('${
                           product._id
                         }')">Delete</button>
                       </div>
